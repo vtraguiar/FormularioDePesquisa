@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Formulário</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+  <h1 id="title">Formulário</h1>
+
+  <p id="description">Preencha o formulário</p>
+
+  <form id="survey-form">
+
+    <input id="name" type="text" placeholder="João Aguiar" required>
+    <label id="name-label">Nome</label>
+    <br><br>
+
+    <input id="email" type="email" placeholder="jaovitoraguiar@gmail.com" required>
+    <label id="email-label">Email</label>
+    <br><br>
+
+    <input id="number" type="number" placeholder="80028922" min="0" max="10000000000" required>
+    <label id="number-label">Número</label>
+    <br><br>
+
+    <select id="dropdown" name="seleção">
+      <option>Vascaino</option>
+      <option>Flamenguista</option>
+    </select>
+
+    <br><br>
+    <input type="radio" id="submit" name="botao" value="botao1"/>
+    <label>Casado</label>
+    <input type="radio" id="submit" name="botao" value="botao2"/>
+    <label>Solteiro</label>
+    
+    <br><br>
+
+    <p>O que gosta de fazer no tempo livre ?</p>
+    <input type="checkbox" value="checkbox1"/>
+    <label>Ficar em casa</label>
+    <br>
+    <input type="checkbox" value="checkbox2"/>
+    <label>Passear</label>
+    <br>
+    <input type="checkbox" value="checkbox3"/>
+    <label>Sair com os amigos</label>
+    <br>
+    <input type="checkbox" value="checkbox4"/>
+    <label>Praticar esportes</label>
+    <br>
+    <input type="checkbox" value="checkbox5"/>
+    <label>Assistir um filme</label>
+    <br>
+    <input type="checkbox" value="checkbox6"/>
+    <label>Jogar videogame</label>
+    <br><br>
+
+    <p>Fale um pouco sobre você:</p>
+    <textarea type="textarea" placeholder="Deixe seu comentário aqui:"></textarea>
+    <br><br>
+    
+      <button type="submit" id="submit">Enviar</button>
+    
+  </form>
+  </main>
+</body>
+
+
+<footer></footer>
+
+
+</html>
